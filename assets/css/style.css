@@ -50,8 +50,7 @@ body {
 
 .header {
   position: relative;
-  height: 100vh;
-  max-height: 708px;
+  height: 600px;
   overflow: hidden;
 }
 .header-icon {
