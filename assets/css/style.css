@@ -845,7 +845,7 @@ body {
     width: 450px;
   }
 }
-@media(max-width:514px){
+@media (max-width: 514px){
   .promote{
     max-height: none;
   }
@@ -991,6 +991,24 @@ body {
   /* qna */
   .qna{
     overflow: hidden;
+  }
+}
+@media (max-width: 375px){
+  .header-icon{
+    width: 250px;
+    transform: translate(-50%, 90%);
+  }
+  .header-text{
+    transform: translate(-50%,-15%);
+  }
+  .header-text h4{
+    font-size: 20px;
+  }
+  .header-text p{
+    font-size: 18px;
+  }
+  .promote-text{
+    font-size: 16px;
   }
 }
 
