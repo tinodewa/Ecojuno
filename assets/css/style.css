@@ -90,7 +90,6 @@ body {
   max-width: 921px;
   text-align: center;
 }
-
 /* promote */
 .promote {
   background-color: #f3f8f1;
@@ -131,6 +130,7 @@ body {
   border-radius: 7px;
   border: 2px solid #9bcd67;
   transition: 0.2s ease;
+  text-transform: uppercase;
 }
 .promote-whatsapp img {
   padding-right: 10px;
@@ -147,6 +147,7 @@ body {
   border: 2px solid #9bcd67;
   box-sizing: border-box;
   transition: 0.2s ease;
+  text-transform: uppercase;
 }
 .promote-tokopedia img {
   padding-right: 10px;
@@ -234,7 +235,9 @@ body {
   bottom: -10%;
   position: absolute;
 }
-
+.advantage-list {
+  list-style: none;
+}
 /* review */
 .review {
   height: 850px;
@@ -251,6 +254,8 @@ body {
 .review-pict {
   max-width: 350px;
   width: 350px;
+  max-height: 350px;
+  height: 350px;
 }
 .review-text-box {
   max-width: 300px;
@@ -267,6 +272,13 @@ body {
 .product .col-md-6 {
   justify-content: center;
   display: flex;
+}
+.product-right {
+  right: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  width: 450px;
 }
 .product-title {
   font-size: 47px;
@@ -343,7 +355,7 @@ body {
 .qna {
   padding-bottom: 40px;
   position: relative;
-  height: 500px;
+  height: 600px;
   /* max-height: 500px; */
 }
 .qna-inner {
@@ -352,21 +364,13 @@ body {
   margin: 50px auto 0;
   padding-bottom: 100px;
 }
-
-.qna-right {
-  right: 0;
-  top: 0;
+.qna-left {
+  left: 0;
+  bottom: 0;
   position: absolute;
   z-index: -1;
   width: 450px;
 }
-.qna-left {
-    left: 0;
-    bottom: 0;
-    position: absolute;
-    z-index: -1;
-    width: 450px;
-  }
 .qna-inner__title {
   font-size: 36px;
   margin: 20px 0 32px 0;
@@ -420,50 +424,49 @@ body {
   cursor: pointer;
   z-index: -1;
   transform: rotate(90deg);
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 .collapsed ~ .qna-card__icon {
- transform: rotate(0deg);
+  transform: rotate(0deg);
 }
 
 /* footer */
-.footer{
-    background-color: #313131;
+.footer {
+  background-color: #313131;
 }
-.footer-inner{
+.footer-inner {
   margin: 0 auto;
   min-height: 250px;
 }
-.footer-logo-box{
-    margin-bottom: 10px;
+.footer-logo-box {
+  margin-bottom: 10px;
 }
-.footer-text-box{
-    padding: 50px 0;
-    max-width: 475px;
-    margin: 0 auto;
+.footer-text-box {
+  padding: 50px 0;
+  max-width: 475px;
+  margin: 0 auto;
 }
-.footer-text{
-    color: #ffffff;
-    margin: 0;
+.footer-text {
+  color: #ffffff;
+  margin: 0;
 }
-.footer-icon-box{
-    padding: 20px;
+.footer-icon-box {
+  padding: 20px;
 }
-.footer-icon{
-    padding-right: 5px;
+.footer-icon {
+  padding-right: 5px;
 }
-.footer-icon-box:first-child{
-    padding-bottom: 0px;
+.footer-icon-box:first-child {
+  padding-bottom: 0px;
 }
-.footer .footer-icon-box .footer-icon-text{
-    color: #ffffff;
-    vertical-align: middle;
-    font-size: 18px;
+.footer .footer-icon-box .footer-icon-text {
+  color: #ffffff;
+  vertical-align: middle;
+  font-size: 18px;
 }
-.footer .footer-icon-box .footer-icon-text:hover{
-    color: #cecece;
-    cursor: pointer;
-
+.footer .footer-icon-box .footer-icon-text:hover {
+  color: #cecece;
+  cursor: pointer;
 }
 
 /* global */
@@ -480,27 +483,429 @@ body {
 .green-text {
   color: #559a0d;
 }
-::selection{
-    color: #ffffff;
-    background-color: #9bcd67;
+::selection {
+  color: #ffffff;
+  background-color: #9bcd67;
 }
 
+/* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
-    .advantage-description{
-        padding-left: 50px;
-        max-width: 450px;
-    }
-    .advantage-description2{
-        padding-right: 50px;
-        max-width: 450px;
-    }
-    .review-title{
-        font-size: 40px;
-    }
-    .footer-inner{
-        padding: 40px 0;
-    }
-    .footer-logo-box{
-        text-align: center;
-    }
+  .section-title {
+    font-size: 37px;
+  }
+  /* header */
+  .header-icon {
+    width: 550px;
+  }
+  .header-text {
+    top: 50%;
+  }
+
+  /* promote */
+  .promote {
+    height: auto;
+  }
+  .promote .row {
+    padding: 75px 0;
+  }
+  .promote-title {
+    font-size: 38px;
+  }
+  .promote-title-child {
+    font-size: 28px;
+  }
+  .promote-price {
+    font-size: 32px;
+  }
+  .promote-text {
+    font-size: 19px;
+    margin-bottom: unset;
+    max-width: 507px;
+  }
+  .promote-whatsapp {
+    padding: 15px 55px;
+  }
+  .promote-tokopedia {
+    padding: 15px 55px;
+  }
+  .promote-example-pict {
+    width: 400px;
+  }
+  .promote-green-box {
+    height: 570px;
+    background-color: #9bcd67;
+  }
+
+  /* advantage */
+  .advantage {
+    padding: 75px 0 0;
+    max-height: 1400px;
+    height: 1400px;
+  }
+  .advantage .row {
+    padding-top: 75px;
+  }
+  .advantage-description {
+    padding-left: 50px;
+    max-width: 450px;
+  }
+  .advantage-description2 {
+    padding-right: 50px;
+    max-width: 450px;
+  }
+  .advantage-description-title {
+    font-size: 30px;
+  }
+
+  /* review */
+  .review-pict {
+    max-width: 300px;
+    width: 300px;
+  }
+  .review-title {
+    font-size: 40px;
+  }
+
+  /* product */
+  .product-pict-box {
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    margin: 0 auto;
+  }
+  .product-pict {
+    width: 400px;
+    max-width: 400px;
+  }
+
+  /* qna */
+  /* footer */
+  .footer-inner {
+    padding: 40px 0;
+  }
+  .footer-logo-box {
+    text-align: center;
+  }
 }
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .section-title {
+    font-size: 29px;
+  }
+  /* header */
+  .header-icon {
+    width: 500px;
+    transform: translate(-50%, 27%);
+  }
+  /* promote */
+  .promote-title {
+    margin-bottom: 15px;
+  }
+  .promote .row {
+    padding: 70px 0;
+  }
+  .promote-title-child {
+    font-size: 25px;
+  }
+  .promote-text {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .promote-price {
+    font-size: 28px;
+  }
+  .promote-btn {
+    margin: 15px 0;
+  }
+  .promote-whatsapp {
+    padding: 15px 35px;
+    font-size: 15px;
+  }
+  .promote-tokopedia {
+    padding: 15px 35px;
+    font-size: 15px;
+  }
+  .promote-warranty {
+    font-size: 14px;
+  }
+  .promote-example-pict {
+    width: 350px;
+  }
+  .promote-green-box {
+    height: 500px;
+    width: 340px;
+    background-color: #9bcd67;
+  }
+
+  /* advantage */
+  .advantage {
+    height: 1150px;
+    max-height: 1150px;
+  }
+  .advantage .advantage-description,
+  .advantage-description2 {
+    padding: 0;
+  }
+  .advantage-green-box1 {
+    height: 300px;
+    width: 300px;
+  }
+  .advantage-pict1 {
+    width: 300px;
+    top: 4%;
+  }
+  .advantage-green-box2 {
+    height: 300px;
+    width: 300px;
+  }
+  .advantage-pict2 {
+    width: 300px;
+    bottom: -8%;
+    left: -8%;
+  }
+  /* review */
+  .review {
+    padding: 60px 0;
+    height: unset;
+  }
+  .review-pict {
+    height: 200px;
+    max-height: 200px;
+    width: 200px;
+    max-width: 200px;
+  }
+  .review-box {
+    padding-bottom: 0;
+  }
+  /* product */
+  .product {
+    height: 800px;
+    padding: 50px;
+  }
+  .product-pict-box {
+    height: 250px;
+    width: 250px;
+  }
+  .product-pict {
+    height: 250px;
+    width: 250px;
+  }
+  .product-text-box {
+    max-width: 250px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  .product-text-box h4 {
+    font-size: 20px;
+  }
+  .product-whatsapp,
+  .product-tokopedia {
+    padding: 15px 35px;
+    font-size: 15px;
+  }
+  /* qna */
+  .qna {
+    height: 500px;
+  }
+  .qna-inner {
+    max-width: 600px;
+    width: 600px;
+  }
+  /* footer */
+  .footer-icon-box {
+    padding: 20px 0;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  /* header */
+
+  .decor-left,
+  .decor-right {
+    display: none;
+  }
+  .header-icon {
+    width: 400px;
+  }
+  .header-text {
+    width: 600px;
+    font-size: 20px;
+    transform: translate(-50%, 20%);
+  }
+
+  /* promote */
+  .promote {
+    text-align: center;
+  }
+  .promote .row {
+    flex-direction: column-reverse;
+  }
+  .promote-example {
+    padding-bottom: 50px;
+  }
+  .promote-example-pict {
+    width: 200px;
+    left: -10%;
+    bottom: 0;
+    position: relative;
+  }
+  .promote-green-box {
+    width: 190px;
+    height: 275px;
+    margin: 0 auto;
+  }
+
+  /* advantage */
+  .advantage{
+    height: 1700px;
+    max-height: none;
+  }
+  .advantage .row{
+    padding-top:50px;
+  }
+  .advantage-green-box1 {
+    margin: 0 auto;
+  }
+  .advantage-pict1 {
+    left: 20%;
+  }
+  .advantage-green-box2 {
+    margin: 0 auto;
+    float: none;
+  }
+  .advantage-pict2 {
+    right: 20%;
+  }
+  .advantage .advantage-description,
+  .advantage-description2 {
+    padding-top: 50px;
+    margin: 0 auto;
+  }
+  .advantage-description-title{
+    text-align: center;
+  }
+  .advantage .row:last-child {
+    flex-direction: column-reverse;
+  }
+  /* review */
+  .review{
+    max-height: none;
+  }
+  .review-box {
+    padding-top:25px;
+  }
+  .col-md-4:first-child .review-box{
+    padding-top: 50px;
+  }
+  
+  /* product */
+  .product{
+    max-height: none;
+    height: 1450px;
+  }
+  .product-box{
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .product-box:first-child{
+    padding-top: 30px;
+  }
+
+  /* qna */
+  .qna-inner{
+    max-width: none;
+    width: 500px;
+  }
+
+  /* footer */
+  .footer-text-box{
+    padding: 20px 0;
+  }
+  .footer .col-md-4{
+    display: inline-flex;
+    justify-content: center;
+  }
+  .footer-icon-box{
+    padding: 0 20px;
+  }
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .header-text{
+    width: 450px;
+  }
+}
+@media(max-width:514px){
+  .promote{
+    max-height: none;
+  }
+  .promote-text{
+    max-width: none;
+    width: 300px;
+    margin: 0 auto;
+  }
+  .qna-inner{
+    width: 300px;
+  }
+  .advantage-description{
+    max-width: none;
+    width: 300px;
+    font-size: 17px;
+  }
+  .advantage-description2{
+    max-width: none;
+    width: 300px;
+  }
+  .advantage-description-title{
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .advantage-description-text{
+    font-size: 17px;
+  }
+  .qna-inner{
+    width: 350px;
+  }
+  .footer-text-box{
+    display: none;
+  }
+  .footer .col-md-4 {
+    display: block;
+    text-align: center;
+  }
+  .footer-icon-box{
+    padding: 20px 0;
+  }
+}
+@media (max-width: 425px){
+  .header-icon{
+    width: 350px;
+  }
+  .header-text{
+    width: 350px;
+    transform: translate(-50%, 0%);
+  }
+  .review .section-title{
+    width: 350px;
+    margin: 0 auto;
+  }
+  .qna .section-title{
+    padding-bottom: 30px;
+  }
+  .qna-inner{
+    width: 300px;
+    margin: 0 auto;
+  }
+}
+
+/* header */
+/* promote */
+/* advantage */
+/* review */
+/* product */
+/* qna */
+/* footer */
