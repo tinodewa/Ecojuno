@@ -913,6 +913,10 @@ body {
     margin: 0 auto;
   }
 
+  /* advantage */
+  .advantage{
+    overflow: hidden;
+  }
 
   /* review */
   .d-block{
@@ -964,6 +968,11 @@ body {
   }
   .carousel-item .product-btn:last-child{
     padding-bottom: 40px;
+  }
+
+  /* qna */
+  .qna{
+    overflow: hidden;
   }
 }
 
