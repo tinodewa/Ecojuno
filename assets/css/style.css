@@ -52,6 +52,7 @@ body {
   position: relative;
   height: 100vh;
   max-height: 708px;
+  overflow: hidden;
 }
 .header-icon {
   position: relative;
@@ -102,7 +103,7 @@ body {
 }
 .promote-title {
   text-transform: uppercase;
-  font-size: 55px;
+  font-size: 47px;
   font-weight: 600;
   margin-bottom: 20px;
 }
@@ -176,7 +177,7 @@ body {
   position: relative;
   padding: 100px 0;
 }
-.advantage .row:last-child {
+.advantage .row {
   padding-top: 100px;
 }
 .advantage-right {
@@ -184,16 +185,14 @@ body {
   top: 0;
   position: absolute;
   width: 450px;
+  z-index: -1;
 }
 .advantage-left {
   left: 0;
   bottom: 0;
   position: absolute;
   width: 450px;
-}
-.advantage-title {
-  text-align: center;
-  margin-bottom: 75px;
+  z-index: -1;
 }
 .advantage-green-box1 {
   height: 450px;
@@ -244,10 +243,6 @@ body {
   text-align: center;
   padding: 100px 0;
 }
-.review-title {
-  font-size: 47px;
-  margin: 0 auto;
-}
 .review-box {
   padding: 70px 0 50px;
 }
@@ -273,13 +268,6 @@ body {
   justify-content: center;
   display: flex;
 }
-.qna-right {
-    right: 0;
-    top: 0;
-    position: absolute;
-    z-index: -1;
-    width: 450px;
-  }
 .product-title {
   font-size: 47px;
   color: #202022;
@@ -361,8 +349,16 @@ body {
 .qna-inner {
   max-width: 860px;
   width: 860px;
-  margin: 0 auto;
+  margin: 50px auto 0;
   padding-bottom: 100px;
+}
+
+.qna-right {
+  right: 0;
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  width: 450px;
 }
 .qna-left {
     left: 0;
@@ -436,8 +432,7 @@ body {
 }
 .footer-inner{
   margin: 0 auto;
-  height: 250px;
-  max-height: 250px;
+  min-height: 250px;
 }
 .footer-logo-box{
     margin-bottom: 10px;
@@ -460,12 +455,24 @@ body {
 .footer-icon-box:first-child{
     padding-bottom: 0px;
 }
-.footer-icon-text{
+.footer .footer-icon-box .footer-icon-text{
     color: #ffffff;
     vertical-align: middle;
     font-size: 18px;
+}
+.footer .footer-icon-box .footer-icon-text:hover{
+    color: #cecece;
+    cursor: pointer;
 
 }
+
+/* global */
+
+.section-title {
+  text-align: center;
+  font-size: 47px;
+}
+
 /* extra */
 .grey {
   color: #aaa9a9;
@@ -476,4 +483,24 @@ body {
 ::selection{
     color: #ffffff;
     background-color: #9bcd67;
+}
+
+@media (max-width: 1199.98px) {
+    .advantage-description{
+        padding-left: 50px;
+        max-width: 450px;
+    }
+    .advantage-description2{
+        padding-right: 50px;
+        max-width: 450px;
+    }
+    .review-title{
+        font-size: 40px;
+    }
+    .footer-inner{
+        padding: 40px 0;
+    }
+    .footer-logo-box{
+        text-align: center;
+    }
 }
