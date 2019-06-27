@@ -916,6 +916,21 @@ body {
   /* advantage */
   .advantage{
     overflow: hidden;
+    height: 1500px;
+  }
+  .advantage-pict1{
+    width: 200px;
+  }
+  .advantage-pict2{
+    width: 200px;
+  }
+  .advantage-green-box1{
+    width: 200px;
+    height: 200px;
+  }
+  .advantage-green-box2{
+    width: 200px;
+    height: 200px;
   }
 
   /* review */
@@ -932,7 +947,7 @@ body {
   .review-mobile .section-title{
     padding-bottom:20px; 
   }
-  .review-mobile .carousel-control-prev,.carousel-control-next{
+  .review-mobile .carousel-control-prev,.review-mobile .carousel-control-next{
     background-color: #559a0d;
     height: 10%;
     width: 15%;
@@ -959,7 +974,7 @@ body {
   .product-mobile .d-block{
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
   }
-  .product-mobile .carousel-control-prev,.carousel-control-next{
+  .product-mobile .carousel-control-prev,.product-mobile .carousel-control-next{
     background-color: #559a0d;
     height: 10%;
     width: 15%;
@@ -968,6 +983,9 @@ body {
   }
   .carousel-item .product-btn:last-child{
     padding-bottom: 40px;
+  }
+  .product-btn{
+    width: unset;
   }
 
   /* qna */
