@@ -894,8 +894,11 @@ body {
   .visible-sm{
     display: block;
   }
+  .header-left,.header-right{
+    width: 150px;
+  }
   .header-icon{
-    width: 350px;
+    width: 250px;
   }
   .header-text{
     width: 350px;
