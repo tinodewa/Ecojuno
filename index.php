@@ -45,13 +45,13 @@
                     <div class="promote-btn">
                         <a class="promote-whatsapp" href="#">
                             <img src="assets/img/whatsapp.png" alt="whatsapp">
-                            Order Lewat whatsapp
+                            Order Lewat Whatsapp
                         </a>
                     </div>
                     <div class="promote-btn">
-                        <a class="promote-tokopedia green-text" href="#">
-                            <img src="assets/img/tokopedia.png" alt="tokopedia">
-                            Order Lewat tokopedia
+                        <a class="promote-shopee" href="#">
+                            <img src="assets/img/shopee.png" alt="shopee">
+                            Order Lewat Shopee
                         </a>
                     </div>
                     <p class="promote-warranty">Garansi 100% Uang Kembali Jika Barang Tidak Sampai</p>
@@ -224,9 +224,9 @@
                             </a>
                         </div>
                         <div class="product-btn">
-                            <a class="product-tokopedia green-text" href="#">
-                                <img src="assets/img/tokopedia.png" alt="tokopedia">
-                                Order Lewat tokopedia
+                            <a class="product-shopee" href="#">
+                                <img src="assets/img/shopee.png" alt="shopee">
+                                Order Lewat Shopee
                             </a>
                         </div>
                     </div>
@@ -241,15 +241,15 @@
                             <h4 class="product-price">Rp. 100.000,-</h4>
                         </div>
                         <div class="product-btn">
-                            <a class="product-whatsapp" href="#">
+                            <a class="btn product-whatsapp" href="#">
                                 <img src="assets/img/whatsapp.png" alt="whatsapp">
                                 Order Lewat whatsapp
                             </a>
                         </div>
                         <div class="product-btn">
-                            <a class="product-tokopedia green-text" href="#">
-                                <img src="assets/img/tokopedia.png" alt="tokopedia">
-                                Order Lewat tokopedia
+                            <a class="btn product-shopee" href="#">
+                                <img src="assets/img/shopee.png" alt="shopee">
+                                Order Lewat Shopee
                             </a>
                         </div>
                     </div>
@@ -258,11 +258,12 @@
         </div>
     </section>
     <div class="product-mobile visible-sm">
+    <img class="advantage-right" src="assets/img/header-right.png" alt="img">
             <h2 class="section-title">Testimoni</h2>
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div id="carouselProductIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselProductIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselProductIndicators" data-slide-to="1"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item text-center active">
@@ -304,11 +305,11 @@
                             </div>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <a class="carousel-control-prev" href="#carouselProductIndicators" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <a class="carousel-control-next" href="#carouselProductIndicators" role="button" data-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="sr-only">Next</span>
                 </a>
@@ -426,7 +427,6 @@
             </div>
         </div>
     </footer>
-
 
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>

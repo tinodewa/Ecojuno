@@ -50,8 +50,7 @@ body {
 
 .header {
   position: relative;
-  height: 100vh;
-  max-height: 708px;
+  height: 600px;
   overflow: hidden;
 }
 .header-icon {
@@ -130,32 +129,39 @@ body {
   border-radius: 7px;
   border: 2px solid #9bcd67;
   transition: 0.2s ease;
+  min-width: 385px;
+  min-height: 68px;
   text-transform: uppercase;
 }
 .promote-whatsapp img {
   padding-right: 10px;
 }
 .promote-whatsapp:hover {
-  color: #9bcd67;
-  background-color: transparent;
+  color: #fff;
+  background-color: #6e9c3c;
   text-decoration: none;
+  border-color: #6e9c3c;
 }
-.promote-tokopedia {
+.promote-shopee {
   display: inline-block;
   padding: 20px 60px;
   border-radius: 7px;
-  border: 2px solid #9bcd67;
+  border: 2px solid #f1582c;
   box-sizing: border-box;
   transition: 0.2s ease;
+  min-width: 385px;
+  min-height: 68px;
   text-transform: uppercase;
+  color: #f1582c;
 }
-.promote-tokopedia img {
+.promote-shopee img {
   padding-right: 10px;
+  width: 35px;
 }
-.promote-tokopedia:hover {
-  background-color: #9bcd67;
-  color: #fff;
+.promote-shopee:hover {
+  background-color: #cecece;
   text-decoration: none;
+  color: #f1582c;
 }
 .promote-example {
   left: 0;
@@ -325,29 +331,36 @@ body {
   border-radius: 7px;
   border: 2px solid #9bcd67;
   transition: 0.2s ease;
+  min-width: 355px;
+  min-height: 68px;
 }
 .product-whatsapp img {
   padding-right: 10px;
 }
 .product-whatsapp:hover {
-  color: #9bcd67;
-  background-color: transparent;
+  color: #fff;
+  background-color: #6e9c3c;
+  border-color: #6e9c3c;
   text-decoration: none;
 }
-.product-tokopedia {
+.product-shopee {
   display: inline-block;
   padding: 20px 60px;
   border-radius: 7px;
-  border: 2px solid #9bcd67;
+  border: 2px solid #f1582c;
   box-sizing: border-box;
   transition: 0.2s ease;
+  min-width: 355px;
+  min-height: 68px;
+  color: #f1582c;
 }
-.product-tokopedia img {
+.product-shopee img {
   padding-right: 10px;
+  width: 35px;
 }
-.product-tokopedia:hover {
-  background-color: #9bcd67;
-  color: #fff;
+.product-shopee:hover {
+  background-color: #cecece;
+  color: #f1582c;
   text-decoration: none;
 }
 
@@ -531,7 +544,7 @@ body {
   .promote-whatsapp {
     padding: 15px 55px;
   }
-  .promote-tokopedia {
+  .promote-shopee {
     padding: 15px 55px;
   }
   .promote-example-pict {
@@ -596,7 +609,7 @@ body {
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (max-width: 991.98px) {  
   .section-title {
     font-size: 29px;
   }
@@ -629,10 +642,17 @@ body {
   .promote-whatsapp {
     padding: 15px 35px;
     font-size: 15px;
+    min-width: 320px;
+    min-height: 50px;
   }
-  .promote-tokopedia {
+  .promote-shopee {
     padding: 15px 35px;
     font-size: 15px;
+    min-width: 320px;
+    min-height: 50px;
+  }
+  .product-shopee img{
+    width: 35px;
   }
   .promote-warranty {
     font-size: 14px;
@@ -708,9 +728,14 @@ body {
     font-size: 20px;
   }
   .product-whatsapp,
-  .product-tokopedia {
-    padding: 15px 35px;
+  .product-shopee {
+    padding: 15px 45px;
     font-size: 15px;
+    min-width: 300px;
+    min-height: 50px;
+  }
+  .product-shopee img{
+    width: 35px;
   }
   /* qna */
   .qna {
@@ -725,7 +750,6 @@ body {
     padding: 20px 0;
   }
 }
-
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   /* header */
@@ -845,7 +869,7 @@ body {
     width: 450px;
   }
 }
-@media(max-width:514px){
+@media (max-width: 514px){
   .promote{
     max-height: none;
   }
@@ -899,10 +923,11 @@ body {
   }
   .header-icon{
     width: 250px;
+    transform: translate(-50%, 90%);
   }
   .header-text{
     width: 350px;
-    transform: translate(-50%, 0%);
+    transform: translate(-50%, -15%);
   }
   .review .section-title{
     width: 350px;
@@ -916,6 +941,30 @@ body {
     margin: 0 auto;
   }
 
+  /* advantage */
+  .advantage{
+    overflow: hidden;
+    height: 1500px;
+  }
+  .advantage-right,.advantage-left{
+    width: 150px;
+  }
+  .advantage-pict1{
+    width: 200px;
+  }
+  .advantage-pict2{
+    width: 200px;
+    bottom: -4%;
+    left: -4%;
+  }
+  .advantage-green-box1{
+    width: 200px;
+    height: 200px;
+  }
+  .advantage-green-box2{
+    width: 200px;
+    height: 200px;
+  }
 
   /* review */
   .d-block{
@@ -931,7 +980,7 @@ body {
   .review-mobile .section-title{
     padding-bottom:20px; 
   }
-  .review-mobile .carousel-control-prev,.carousel-control-next{
+  .review-mobile .carousel-control-prev,.review-mobile .carousel-control-next{
     background-color: #559a0d;
     height: 10%;
     width: 15%;
@@ -949,6 +998,7 @@ body {
   }
   .product-mobile{
     padding: 30px 0;
+    position: relative;
   }
   .product-mobile .section-title{
     width: 250px;
@@ -958,7 +1008,7 @@ body {
   .product-mobile .d-block{
     box-shadow: 0 0 20px rgba(0, 0, 0, .2);
   }
-  .product-mobile .carousel-control-prev,.carousel-control-next{
+  .product-mobile .carousel-control-prev,.product-mobile .carousel-control-next{
     background-color: #559a0d;
     height: 10%;
     width: 15%;
@@ -967,6 +1017,35 @@ body {
   }
   .carousel-item .product-btn:last-child{
     padding-bottom: 40px;
+  }
+  .product-btn{
+    width: unset;
+  }
+
+  /* qna */
+  .qna{
+    overflow: hidden;
+  }
+  .qna-left{
+    width: 150px;
+  }
+}
+@media (max-width: 375px){
+  .header-icon{
+    width: 250px;
+    transform: translate(-50%, 90%);
+  }
+  .header-text{
+    transform: translate(-50%,-15%);
+  }
+  .header-text h4{
+    font-size: 20px;
+  }
+  .header-text p{
+    font-size: 18px;
+  }
+  .promote-text{
+    font-size: 16px;
   }
 }
 
