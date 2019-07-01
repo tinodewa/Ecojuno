@@ -130,7 +130,6 @@ body {
   border: 2px solid #9bcd67;
   transition: 0.2s ease;
   min-width: 385px;
-  min-height: 68px;
   text-transform: uppercase;
 }
 .promote-whatsapp img {
@@ -144,24 +143,23 @@ body {
 }
 .promote-shopee {
   display: inline-block;
-  padding: 20px 60px;
+  padding: 15px 55px;
   border-radius: 7px;
   border: 2px solid #f1582c;
   box-sizing: border-box;
   transition: 0.2s ease;
   min-width: 385px;
-  min-height: 68px;
   text-transform: uppercase;
   color: #f1582c;
 }
 .promote-shopee img {
   padding-right: 10px;
-  width: 35px;
+  width: 43px;
 }
 .promote-shopee:hover {
-  background-color: #cecece;
+  color: #fff;
   text-decoration: none;
-  color: #f1582c;
+  background-color: #f1582c;
 }
 .promote-example {
   left: 0;
@@ -332,7 +330,6 @@ body {
   border: 2px solid #9bcd67;
   transition: 0.2s ease;
   min-width: 355px;
-  min-height: 68px;
 }
 .product-whatsapp img {
   padding-right: 10px;
@@ -345,18 +342,17 @@ body {
 }
 .product-shopee {
   display: inline-block;
-  padding: 20px 60px;
+  padding: 15px 55px;
   border-radius: 7px;
   border: 2px solid #f1582c;
   box-sizing: border-box;
   transition: 0.2s ease;
   min-width: 355px;
-  min-height: 68px;
   color: #f1582c;
 }
 .product-shopee img {
   padding-right: 10px;
-  width: 35px;
+  width: 43px;
 }
 .product-shopee:hover {
   background-color: #cecece;
@@ -368,8 +364,6 @@ body {
 .qna {
   padding-bottom: 40px;
   position: relative;
-  height: 600px;
-  /* max-height: 500px; */
 }
 .qna-inner {
   max-width: 860px;
@@ -643,13 +637,13 @@ body {
     padding: 15px 35px;
     font-size: 15px;
     min-width: 320px;
-    min-height: 50px;
+    min-height: 60px;
   }
   .promote-shopee {
     padding: 15px 35px;
     font-size: 15px;
     min-width: 320px;
-    min-height: 50px;
+    min-height: 60px;
   }
   .product-shopee img{
     width: 35px;
@@ -738,9 +732,6 @@ body {
     width: 35px;
   }
   /* qna */
-  .qna {
-    height: 500px;
-  }
   .qna-inner {
     max-width: 600px;
     width: 600px;
@@ -1037,6 +1028,7 @@ body {
   }
   .header-text{
     transform: translate(-50%,-15%);
+    width: 320px;
   }
   .header-text h4{
     font-size: 20px;
