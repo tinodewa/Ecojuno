@@ -296,7 +296,7 @@
                             <div class="product-btn">
                                 <a class="product-whatsapp" href="#">
                                     <img src="assets/img/whatsapp.png" alt="whatsapp">
-                                    Order Lewat whatsapp
+                                    Order Lewat Whatsapp
                                 </a>
                             </div>
                             <div class="product-btn">
