@@ -91,10 +91,10 @@
                                 <li> - alkohol</li>
                                 <li> - paraben</li>
                                 <li> - active antibacterial agents</li>
-                                <li> - hypochlorous acid 100% HALAL</li>
+                                <li> - hypochlorous acid</li>
                             </ul>
+                            100% HALAL
                         </p>
-
                     </div>
                 </div>
             </div>
@@ -258,8 +258,8 @@
         </div>
     </section>
     <div class="product-mobile visible-sm">
-    <img class="advantage-right" src="assets/img/header-right.png" alt="img">
-            <h2 class="section-title">Testimoni</h2>
+        <img class="advantage-right" src="assets/img/header-right.png" alt="img">
+            <h2 class="section-title">Varian Produk</h2>
             <div id="carouselProductIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselProductIndicators" data-slide-to="0" class="active"></li>
@@ -289,7 +289,7 @@
                         <img src="assets/img/product-2.png" class="d-block" alt="review picture">
                         <div class="product-text-box">
                                 <h4>ECOJUNO Essential Oil Based Sanitizer 100ml</h4>
-                                <h4 class="product-price">Rp. 100.000,-</h4>
+                                <h4 class="product-price">Rp. 90.000,-</h4>
                             </div>
                             <div class="product-btn">
                                 <a class="product-whatsapp" href="#">
