@@ -177,13 +177,11 @@ body {
 
 /* advantage */
 .advantage {
-  height: 1460px;
-  max-height: 1460px;
   position: relative;
-  padding: 100px 0;
+  padding: 100px 0 150px;
 }
 .advantage .row {
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .advantage-right {
   right: 0;
@@ -355,8 +353,8 @@ body {
   width: 43px;
 }
 .product-shopee:hover {
-  background-color: #cecece;
-  color: #f1582c;
+  color: #fff;
+  background-color: #f1582c;
   text-decoration: none;
 }
 
@@ -551,7 +549,7 @@ body {
 
   /* advantage */
   .advantage {
-    padding: 75px 0 0;
+    padding: 75px 0;
     max-height: 1400px;
     height: 1400px;
   }
@@ -806,6 +804,10 @@ body {
     padding-top: 50px;
     margin: 0 auto;
   }
+  .advantage-description-text{
+
+    text-align: center;
+  }
   .advantage-description-title{
     text-align: center;
   }
@@ -859,19 +861,25 @@ body {
   .header-text{
     width: 450px;
   }
+
+  .promote-text{
+    width: 450px;
+    margin: 0 auto;
+  }
 }
 @media (max-width: 514px){
+
+  /* promote */
   .promote{
     max-height: none;
   }
   .promote-text{
     max-width: none;
-    width: 300px;
+    width: 450px;
     margin: 0 auto;
   }
-  .qna-inner{
-    width: 300px;
-  }
+
+  /* advantage */
   .advantage-description{
     max-width: none;
     width: 300px;
@@ -888,9 +896,13 @@ body {
   .advantage-description-text{
     font-size: 17px;
   }
+
+  /* qna */
   .qna-inner{
     width: 350px;
   }
+
+  /* footer */
   .footer-text-box{
     display: none;
   }
@@ -909,6 +921,13 @@ body {
   .visible-sm{
     display: block;
   }
+  .d-block{
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+  }
+
+  /* header */
   .header-left,.header-right{
     width: 150px;
   }
@@ -920,10 +939,12 @@ body {
     width: 350px;
     transform: translate(-50%, -15%);
   }
-  .review .section-title{
-    width: 350px;
-    margin: 0 auto;
+  /* promote */
+  .promote-text{
+    width: 300px;
   }
+  /* qna */
+
   .qna .section-title{
     padding-bottom: 30px;
   }
@@ -958,11 +979,9 @@ body {
   }
 
   /* review */
-  .d-block{
-    width: 320px;
-    height: 320px;
+  .review .section-title{
+    width: 350px;
     margin: 0 auto;
-
   }
   .review-mobile{
     padding: 30px 0;
@@ -978,6 +997,8 @@ body {
     top: 30%;
     transform: translateY(-50%);
   }
+
+  /* product */
   .carousel-indicators li{
     background-color: #aaa9a9;
   }
@@ -1038,6 +1059,9 @@ body {
   }
   .promote-text{
     font-size: 16px;
+  }
+  .advantage{
+    height: unset;
   }
 }
 

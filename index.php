@@ -84,6 +84,7 @@
                         <h2 class="advantage-description-title green-text">Sanitasi Alami Ramah Lingkungan</h2>
                         <p class="advantage-description-text">ECOJUNO hanya mengandung bahan ALL GREEN (Essensial Oil +
                             Air) tanpa bahan tambahan lainnya seperti:
+                        </p>
                             <ul class="advantage-list">
                                 <li> - bahan kimia</li>
                                 <li> - pengawet</li>
@@ -93,8 +94,9 @@
                                 <li> - active antibacterial agents</li>
                                 <li> - hypochlorous acid</li>
                             </ul>
+                            <p class="advantage-description-text">
                             100% HALAL
-                        </p>
+                            </p>
                     </div>
                 </div>
             </div>
@@ -275,13 +277,13 @@
                             <div class="product-btn">
                                     <a class="product-whatsapp" href="#">
                                         <img src="assets/img/whatsapp.png" alt="whatsapp">
-                                        Order Lewat whatsapp
+                                        Order Lewat Whatsapp
                                     </a>
                                 </div>
                                 <div class="product-btn">
-                                    <a class="product-tokopedia green-text" href="#">
-                                        <img src="assets/img/tokopedia.png" alt="tokopedia">
-                                        Order Lewat tokopedia
+                                    <a class="product-shopee" href="#">
+                                        <img src="assets/img/shopee.png" alt="shopee">
+                                        Order Lewat Shopee
                                     </a>
                                 </div>
                     </div>
@@ -298,9 +300,9 @@
                                 </a>
                             </div>
                             <div class="product-btn">
-                                <a class="product-tokopedia green-text" href="#">
-                                    <img src="assets/img/tokopedia.png" alt="tokopedia">
-                                    Order Lewat tokopedia
+                                <a class="product-shopee" href="#">
+                                    <img src="assets/img/shopee.png" alt="shopee">
+                                    Order Lewat Shopee
                                 </a>
                             </div>
                     </div>
