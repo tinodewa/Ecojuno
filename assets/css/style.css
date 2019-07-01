@@ -480,11 +480,8 @@ body {
   text-align: center;
   font-size: 47px;
 }
-.review-mobile{
+.visible-sm{
   display: none;
-}
-.product-mobile{
-  display: none
 }
 
 /* extra */
@@ -940,9 +937,62 @@ body {
     transform: translate(-50%, -15%);
   }
   /* promote */
+  .promote .row{
+    padding: 70px 0 40px;
+  }
+  .promote-example{
+    padding-bottom: 5px;
+  }
+  .promote-title{
+    font-size: 20px;
+    margin: 0;
+  }
+  .promote-title-child{
+    font-size: 18px;
+  }
   .promote-text{
     width: 300px;
+    font-size: 16px;
   }
+  .promote-price{
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+  .promote-btn{
+    padding-bottom: 5px;
+    margin: 8px 0;
+  }
+  .promote-whatsapp{
+    min-width: unset;
+    min-height: unset;
+    padding: 13px 15px;
+    width: 250px;
+  }
+  .promote-whatsapp img{
+    width: 30px;
+  }
+  .promote-shopee{
+    min-width: unset;
+    min-height: unset;
+    padding: 13px 15px;
+    width: 250px;
+  }
+  .promote-shopee img{
+    width: 36px;
+  }
+  .promote-green-box{
+    width: 125px;
+    height: 125px;
+    transform: translate(10px, -20px);
+  }
+  .promote-example-pict{
+    width: 125px;
+    transform: translate(5px, 10px);
+  }
+  .promote-btn .visible-sm{
+    display: inline-flex;
+  }
+
   /* qna */
 
   .qna .section-title{

@@ -24,9 +24,9 @@
 
             <div class="header-text">
                 <div class="row justify-content-center">
-                    <h4>Octarina, <span class="grey"> Surabaya</span></h4><br>
+                    <h4>Naomi, <span class="grey"> Surabaya</span></h4><br>
                 </div>
-                <p>“Awalnya sih ragu, tapi setelah temen-temen pada suruh nyobain buat si kecil, eh sekarang dia slalu
+                <p class="font-italic">“Awalnya sih ragu, tapi setelah temen-temen pada suruh nyobain buat si kecil, eh sekarang dia slalu
                     minta tangannya buat di #CikCikinDulu pake ECOJUNO tiap sebelum makan dong :D”</p>
             </div>
         </div>
@@ -45,21 +45,26 @@
                     <div class="promote-btn">
                         <a class="promote-whatsapp" href="#">
                             <img src="assets/img/whatsapp.png" alt="whatsapp">
-                            Order Lewat Whatsapp
+                            <span class="hidden-sm">Order Lewat Whatsapp</span>
+                            <span class="visible-sm">Order via Whatsapp</span>
                         </a>
                     </div>
                     <div class="promote-btn">
                         <a class="promote-shopee" href="#">
                             <img src="assets/img/shopee.png" alt="shopee">
-                            Order Lewat Shopee
+                            <span class="hidden-sm">Order Lewat Shopee</span>
+                            <span class="visible-sm">Order via Shopee</span>
                         </a>
                     </div>
                     <p class="promote-warranty">Garansi 100% Uang Kembali Jika Barang Tidak Sampai</p>
                 </div>
                 <div class="col-md-5">
                     <div class="promote-example">
-                        <div class="promote-green-box">
+                        <div class="promote-green-box hidden-sm">
                             <img class="promote-example-pict" src="assets/img/promote.png" alt="promote_pict">
+                        </div>
+                        <div class="promote-green-box visible-sm">
+                            <img class="promote-example-pict visible-sm" src="assets/img/product-1.png" alt="promote_pict">
                         </div>
                     </div>
                 </div>
@@ -222,7 +227,7 @@
                         <div class="product-btn">
                             <a class="product-whatsapp" href="#">
                                 <img src="assets/img/whatsapp.png" alt="whatsapp">
-                                Order Lewat whatsapp
+                                Order Lewat Whatsapp
                             </a>
                         </div>
                         <div class="product-btn">
@@ -240,12 +245,12 @@
                         </div>
                         <div class="product-text-box">
                             <h4>ECOJUNO Essential Oil Based Sanitizer 100ml</h4>
-                            <h4 class="product-price">Rp. 100.000,-</h4>
+                            <h4 class="product-price">Rp. 90.000,-</h4>
                         </div>
                         <div class="product-btn">
                             <a class="btn product-whatsapp" href="#">
                                 <img src="assets/img/whatsapp.png" alt="whatsapp">
-                                Order Lewat whatsapp
+                                Order Lewat Whatsapp
                             </a>
                         </div>
                         <div class="product-btn">
@@ -272,7 +277,7 @@
                         <img src="assets/img/product-1.png" class="d-block" alt="review picture">
                         <div class="product-text-box">
                                 <h4>ECOJUNO Essential Oil Based Sanitizer 60ml</h4>
-                                <h4 class="product-price">Rp. 70.000,-</h4>
+                                <h4 class="product-price green-text">Rp. 70.000,-</h4>
                             </div>
                             <div class="product-btn">
                                     <a class="product-whatsapp" href="#">
@@ -291,7 +296,7 @@
                         <img src="assets/img/product-2.png" class="d-block" alt="review picture">
                         <div class="product-text-box">
                                 <h4>ECOJUNO Essential Oil Based Sanitizer 100ml</h4>
-                                <h4 class="product-price">Rp. 90.000,-</h4>
+                                <h4 class="product-price green-text">Rp. 90.000,-</h4>
                             </div>
                             <div class="product-btn">
                                 <a class="product-whatsapp" href="#">
