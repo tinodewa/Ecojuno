@@ -555,7 +555,6 @@ body {
   }
   .promote-green-box {
     height: 570px;
-    background-color: #9bcd67;
   }
 
   /* advantage */
@@ -620,6 +619,9 @@ body {
     width: 500px;
     transform: translate(-50%, 27%);
   }
+  .header-text{
+    width: 750px;
+  }
   /* promote */
   .promote-title {
     margin-bottom: 15px;
@@ -660,11 +662,11 @@ body {
     font-size: 14px;
   }
   .promote-example-pict {
-    width: 350px;
+    width: 300px;
   }
   .promote-green-box {
-    height: 500px;
-    width: 340px;
+    height: 400px;
+    width: 250px;
     background-color: #9bcd67;
   }
 
@@ -747,6 +749,18 @@ body {
   /* footer */
   .footer-icon-box {
     padding: 20px 0;
+  }
+}
+@media (max-width: 800px){
+  .promote-example-pict {
+    width: 240px;
+  }
+  .promote-green-box {
+    height: 335px;
+    width: 205px;
+  }
+  .advantage-green-box2{
+    float: none;
   }
 }
 /* Small devices (landscape phones, less than 768px) */
