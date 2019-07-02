@@ -26,6 +26,16 @@
     url("../fonts/Montserrat-SemiBold.ttf") format("truetype"),
     url("../fonts/Montserrat-SemiBold.svg#svgFontName") format("svg"); /* Legacy iOS */
 }
+@font-face {
+  font-family: "Montserrat-bold";
+  src: url("../fonts/Montserrat-Bold.eot"); /* IE9 Compat Modes */
+  src: url("../fonts/Montserrat-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Montserrat-Bold.woff2") format("woff2"),
+    url("../fonts/Montserrat-Bold.woff") format("woff"),
+    url("../fonts/Montserrat-Bold.ttf") format("truetype"),
+    url("../fonts/Montserrat-Bold.svg#svgFontName") format("svg"); /* Legacy iOS */
+}
 * {
   font-family: "Montserrat-Regular", sans-serif;
 }
@@ -117,6 +127,7 @@ body {
 .promote-price {
   font-size: 36px;
   display: block;
+  font-family: "Montserrat-Bold", sans-serif;
 }
 .promote-btn {
   margin: 25px 0;
@@ -311,6 +322,9 @@ body {
   max-width: 450px;
   padding: 40px 0 0;
   text-align: center;
+}
+.product-price{
+  font-family: 'Montserrat-Bold',sans-serif;
 }
 .product-btn {
   margin: 25px 0;

@@ -40,8 +40,8 @@
                     <p class="promote-text">ECOJUNO merupakan disinfektan alami ramah lingkungan pertama di Indonesia
                         yang menggunakan essensial oil sebagai kandungannya untuk membunuh kuman, bakteri dan virus
                         dalam hitungan detik!</p>
-                    <p class="promote-text">Anda bisa mendapatkan produk Ecojuno dengan harga :</p>
-                    <span class="promote-price green-text">Rp 100.000,-</span>
+                    <p class="promote-text">Harga mulai dari :</p>
+                    <span class="promote-price green-text">Rp 70.000,-</span>
                     <div class="promote-btn">
                         <a class="promote-whatsapp" href="#">
                             <img src="assets/img/whatsapp.png" alt="whatsapp">
@@ -222,7 +222,7 @@
                         </div>
                         <div class="product-text-box">
                             <h4>ECOJUNO Essential Oil Based Sanitizer 60ml</h4>
-                            <h4 class="product-price">Rp. 70.000,-</h4>
+                            <h4 class="product-price green-text">Rp. 70.000,-</h4>
                         </div>
                         <div class="product-btn">
                             <a class="product-whatsapp" href="#">
@@ -245,7 +245,7 @@
                         </div>
                         <div class="product-text-box">
                             <h4>ECOJUNO Essential Oil Based Sanitizer 100ml</h4>
-                            <h4 class="product-price">Rp. 90.000,-</h4>
+                            <h4 class="product-price green-text">Rp. 90.000,-</h4>
                         </div>
                         <div class="product-btn">
                             <a class="btn product-whatsapp" href="#">
