@@ -423,12 +423,11 @@
                 <div class="col-md-4 col-xl-3">
                     <div class="footer-icon-box">
                         <img src="assets/img/instagram-logo.png" alt="instagram logo" class="footer-icon">
-                        <a href="https://www.instagram.com/ecojuno/"
-                            class="footer-icon-text">Ecojunonatural</a>
+                        <a href="https://www.instagram.com/ecojuno/" class="footer-icon-text">Ecojuno</a>
                     </div>
                     <div class="footer-icon-box">
                         <img src="assets/img/facebook-logo.png" alt="instagram logo" class="footer-icon">
-                        <a href="https://www.facebook.com/ecojuno/" class="footer-icon-text">Ecojunonatural</a>
+                        <a href="https://www.facebook.com/ecojuno/" class="footer-icon-text">Ecojuno</a>
                     </div>
                 </div>
             </div>

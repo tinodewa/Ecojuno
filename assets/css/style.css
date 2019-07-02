@@ -858,10 +858,21 @@ body {
   .header-text{
     width: 450px;
   }
-
   .promote-text{
     width: 450px;
     margin: 0 auto;
+  }
+  .advantage-green-box1,
+  .advantage-green-box2{
+    position: relative;
+  }
+  .advantage-pict1{
+    left: 25px;
+    top: 25px;
+  }
+  .advantage-pict2{
+    top: 25px;
+    right: 25px;
   }
 }
 @media (max-width: 514px){
@@ -1013,11 +1024,16 @@ body {
   }
   .advantage-pict1{
     width: 200px;
+    top: 15px;
+    left: 15px;
+    /* left: 25%; */
   }
   .advantage-pict2{
     width: 200px;
-    bottom: -4%;
-    left: -4%;
+    right: 15px;
+    top: 15px;
+    /* bottom: -4%; */
+    /* left: -4%; */
   }
   .advantage-green-box1{
     width: 200px;
