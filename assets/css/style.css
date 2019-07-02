@@ -610,7 +610,6 @@ body {
     text-align: center;
   }
 }
-
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {  
   .section-title {
@@ -1144,7 +1143,25 @@ body {
     height: unset;
   }
 }
-
+@media (max-width: 320px){
+  .header-text{
+    width: 280px;
+  }
+  .promote-text{
+    width: 280px;
+  }
+  .advantage-description, .advantage-description2{
+    width: 270px;
+    margin: 0 auto;
+  }
+  .product-whatsapp,.product-shopee{
+    padding: 10px 20px;
+    min-width: 260px;
+  }
+  .qna-inner{
+    width: 260px;
+  }
+}
 /* header */
 /* promote */
 /* advantage */
